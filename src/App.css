@@ -1,16 +1,16 @@
+/**
+ * @Date:   2019-10-21T10:56:08+01:00
+ * @Last modified time: 2020-02-11T17:11:33+00:00
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -25,14 +25,175 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #09d3ac;
+}
+body{
+  background-color: #DDE0FF ;
+  font-family: 'Roboto', sans-serif;
+}
+.mainLink
+{
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.otherNav
+{
+  color: white;
+  text-decoration: none !important;
+}
+
+.otherNav:hover{
+  color: #95989b;
+}
+
+.smallerOtherNav{
+  text-decoration: none !important;
+  color: #95989b;
+  margin-bottom: 20px;
+}
+
+.smallerOtherNav:hover{
+  color:grey;
+}
+
+.topSpace {
+  margin-top: 20px;
+}
+
+.bigTopSpace
+{
+  margin-top: 40px;
+}
+
+.spaceRight
+{
+  margin-right: 20px;
+}
+
+.characterListHeading{
+  background-color: #343a40;
+  color: white;
+  border-radius: 10px;
+}
+
+.navbar{
+  background-color: #757473;
+}
+
+.images{
+  height: 150%;
+  width: 100%;
+}
+
+.cardEpisode
+{
+  height: 100%;
+  width: 100%;
+}
+
+.buttonSpace{
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+}
+
+.rowOne{
+  background-color: grey;
+}
+.rowTwo{
+  background-color: grey;
+}
+
+.bottomSpace{
+  margin-bottom: 20px;
+}
+
+.header{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #4B545C;
+  border-radius: 10px;
+}
+
+.showHeader{
+  background-color: #626E78;
+  border-radius: 10px;
+  color: white;
+}
+
+.space{
+  margin-right: 15px;
+}
+
+.cardSpace{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.dropList{
+  height: 70px;
+  overflow-y: scroll;
+}
+
+.otherDropList{
+  max-height: 56px;
+}
+.linkStyle{
+  text-decoration: none !important;
+  color: black;
+}
+
+.icon{
+  height: 30px;
+  width: 30px;
+}
+.iconbigger{
+  height: 70px;
+  width: 70px;
+}
+
+.brendanSpace{
+  margin-bottom: 20px;
+}
+
+.space-beside{
+  margin-left: 10px;
+}
+
+Button{
+  padding: 4px !important;
+  text-shadow: none !important;
+}
+
+.addEpisode{
+  margin-right: 0;
+}
+
+.height{
+  height: 300px;
+}
+
+.cardTitle{
+  background-color: #6c757d;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.cardTitleShow{
+  background-color: #6c757d;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card{
+  border-radius: 10px !important;
+}
+.collapseHover:hover{
+  color: black;
+  font-size: 20px;
+}
+
+.headertext{
+  color: white;
+
 }
